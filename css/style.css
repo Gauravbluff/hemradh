@@ -39,15 +39,16 @@
     .bg-white{background-color: #fff;}
     .box-shadow{-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);-moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);}
     .text-capitalize{text-transform: uppercase;}
-    h1{font-size: 47px;line-height: 55px;margin-bottom: 30px;color: #888;font-weight: 800;font-family: 'Saira', sans-serif;}
-    p{color: #7b838a;font-size: 16px;line-height: 25px;font-weight: 400;font-family: 'Signika Negative', sans-serif;}
-    h2{color: #002347;font-size: 40px;line-height: 45px;font-weight: 800;font-family: 'Saira', sans-serif;}
-    h4{font-size: 20px;line-height: 30px;margin: 0;color: #002347;font-weight: 600;font-family: 'Saira', sans-serif;}
-    h3{font-weight: 800;color: #002347;font-size: 24px;line-height: 30px;margin-bottom: 15px;font-family: 'Saira', sans-serif;}
+    h1{font-size: 47px;line-height: 55px;margin-bottom: 30px;color: #888;font-weight: 800;font-family: 'Comfortaa';}
+    p{color: #7b838a;font-size: 16px;line-height: 25px;font-weight: 400;font-family: 'Comfortaa';}
+    h2{color: #002347;font-size: 40px;line-height: 45px;font-weight: 800;font-family: 'Comfortaa';}
+    h4{font-size: 20px;line-height: 30px;margin: 0;color: #002347;font-weight: 600;font-family: 'Comfortaa';}
+    h3{font-weight: 800;color: #002347;font-size: 24px;line-height: 30px;margin-bottom: 15px;font-family: 'Comfortaa';}
     .main-title{text-align: center;margin-bottom: 20px;}
     ::selection,-moz-selection,-webkit-selection,-ms-selection,-moz-selection,-o-selection{background-color: #002347;color: #fdc632;}
      .form-control:focus{border-color: #ccc;}
     .center{text-align: center;}
+    ul li{font-family: 'Comfortaa';}
     .box-shadow1{-moz-box-shadow: rgba(0, 0,0, 0.8) 12px 4px 10px 4px;-webkit-box-shadow: rgba(0, 0,0, 0.8) 12px 4px 10px 4px;box-shadow: rgba(0, 0,0, 0.8) 12px 4px 10px 4px;}
     .submit-btn{transition: all 0.4s ease-in-out;-webkit-transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;-ms-transition: all 0.4s ease-in-out;}
     .mb-10{margin-bottom: 10px;}
@@ -95,16 +96,23 @@
     .banner .owl-dots,.banner .owl-nav{display: none;}
     .owl-banner.banner .item figure{margin: 0; float: left;width: 100%;height: 620px;}
     .owl-banner.banner .item figure img{float: left;width: 100%;height: 100%;     object-fit: cover; object-position: top}
-    .item{float: left;width: 101%;height: 100%;}
+    .item1{float: left;width: 101%;height: 100%;}
     .banner-content{width: 100%;position: absolute;z-index: 111;float: left;color: #fff;top: 50%;transform: translateY(-50%);padding: 0 250px 0;margin-bottom: 0;}
     .banner-content h2 {    font-size:37px;    line-height: 82px;      font-family: 'Comfortaa', cursive;  color: #fff; text-shadow: none;}
     .banner-content p{color: #fff}
     .banner-info{margin-bottom: 20px;}
     .quality{font-size: 50px;margin-bottom: 20px;}
-    .item::before{position: absolute;content: '';top: 0;right: 0;left: 0;display: inline-block;background-color: rgb(15 6 82 / 54%); z-index: 11;min-height: 620px;}
+    .item1::before{position: absolute;content: '';top: 0;right: 0;left: 0;display: inline-block;background-color: rgb(15 6 82 / 54%); z-index: 11;min-height: 620px;}
     .banner-btn .btn{font-family: 'Comfortaa', cursive; font-size: 15px; font-weight: 900;padding: 16px 50px;}
     .explore{ padding: 16px 37px 16px !important; font-family: 'Comfortaa';border-radius: 40px !important; background: #fff !important; color: navyblue !important}
     .explore:hover{ background: #fff; color: #000 !important;}
+    img.fixed-png {    height: 50px;    width: auto;    float: right;}
+    .fixed-sec {
+    position: fixed;
+    top: 86%;
+    z-index: 1;
+    padding: 0 40px 0;
+}
 /* BANNER CSS END */
 
 
@@ -892,3 +900,97 @@
 
 
 /*CONTACT PAGE ENDS HERE*/
+
+
+
+
+
+
+
+/*ABOUT PAGE CSS START*/
+.about-sec {
+    padding: 110px 0 80px;
+}
+.img-about img {
+    height: 215px;
+    box-shadow: 0 0 3px #000;
+    border-radius: 20px;
+}
+.img-about-2 {
+    position: relative;
+    top: -30px;
+    left: -37px;
+}
+.img-about-2 img {
+    margin-bottom: 22px;
+}
+.full-width.about-desc-div {
+    background: #f9f6f6;
+    padding: 33px 76px 30px 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+    box-shadow: 0 0 4px #bbb;
+}
+.full-width.about-desc-div h2 {
+    font-family: 'Comfortaa';
+    font-size: 34px;
+    line-height: 42px;
+    padding: 14px 0 4px;
+}
+
+.schieve-section {
+    padding: 60px 0 100px;
+}
+
+
+/*feature start*/
+.feature-text button {
+    background: #07294d;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-family: 'Comfortaa';
+}
+
+.feature.sec .img-col {
+    padding: 0;
+}
+.feature-text {
+    padding: 95px;
+}
+.feature-text h3 {
+    padding: 13px 0;
+}
+.feature-text p {
+    padding: 0 0 16px;
+}
+.feature-img img {
+    height: 535px;
+    object-fit: cover;
+}
+/*feature end*/
+
+
+/*testimonial start*/
+.testimonial-sec {
+    padding: 30px 0;
+}
+.title-test{padding: 90px 0 10px ;}
+.caption {
+    padding: 60px 0 0;
+}
+.about-banner{height: 600px; background: url(../images/about.png); box-shadow:inset 0 0 0 2000px rgba(15, 6, 82, 0.6);}
+
+.owl-nav {
+    position: relative;
+    top: -10em;
+}
+.owl-next {
+    float: right;
+}
+.owl-prev {
+    float: left;
+}
+.testimonial-sec .item-banner{padding: 0 30px 0;}
+/*testimonial end*/
+/*ABOUT PAGE CSS END*/

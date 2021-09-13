@@ -1,4 +1,4 @@
-$('.owl-carousel').owlCarousel({
+$('.banner-cara').owlCarousel({
     loop:true,
     margin:10,
     mouseDrag: true,
@@ -16,6 +16,31 @@ $('.owl-carousel').owlCarousel({
         },
         1000:{
             items:1
+        }
+    }
+})
+
+
+
+$('.testimonial').owlCarousel({
+    loop:true,
+    margin:10,
+    mouseDrag: true,
+    touchDrag: true,
+    pullDrag: true,
+    navText : ["<i class='fas fa-arrow-left'></i>"," <i class='fas fa-arrow-right'></i>"],
+    autoplay:false,
+    animateOut: 'fadeOut',
+    nav:true,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
         }
     }
 })
